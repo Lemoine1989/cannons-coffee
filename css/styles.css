@@ -1,17 +1,70 @@
-/* BASIC FORMATTING */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 html {
     box-sizing: border-box;
 }
 
-*,
 *:before,
 *:after {
     box-sizing: inherit;
 }
+:root {
+    --black: #000000;
+    --catalina: #06327d;
+    --bluetiful: #2b70e4;
+    --vegan: #209d5c;
+    --sunglow: #ffd034;
+    --white: #ffffff;
+    --light-blue: #cadbf8;
+    --common-font: Montserrat;
+
+}
+    /* BASIC FORMATTING */
+
 
 body {
     color: black;
-    background-color: #063270;
+    background-color: var(--catalina);
     margin: 0;
     padding: 0;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-family: var(--common-font);
+}
+.container {
+max-width: 1200px;
+padding: 3rem;
+margin: auto;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.1667;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0;
+}
+h2 {
+    font-size: 2.5rem;
+    line-height: 1.1667;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 1.75rem;
+    line-height: 1.1667;
+    font-weight: 300;
+}
+.button {
+   background-color: var(--catalina); 
+   color: var(--white);
+   border-radius: 6px;
+   padding: 1.5rem;
+   text-decoration: none;
+}
+.green-button {
+    background-color: var(--vegan);
+    color: var(--white);
+    border-radius: 6px;
+     padding: 1.5rem;
+text-decoration: none;
 }
