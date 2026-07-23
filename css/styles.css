@@ -101,6 +101,13 @@ header {
   justify-content: space-between;
   margin-top: 2rem;
 }
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  border-top: 4px solid var(--sunglow);
+}
 .card1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
