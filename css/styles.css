@@ -15,7 +15,7 @@ html {
   --sunglow: #ffd034;
   --white: #ffffff;
   --light-blue: #cadbf8;
-  --common-font: Montserrat;
+  --main-font: Montserrat;
 }
 /* BASIC FORMATTING */
 
@@ -26,7 +26,7 @@ body {
   padding: 0;
   font-size: 1.125rem;
   line-height: 1.5;
-  font-family: var(--common-font);
+  font-family: var(--main-font);
 }
 .container {
   max-width: 1200px;
@@ -91,22 +91,20 @@ header {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  margin-top: 2rem;
+  margin-top: rem;
+  border-bottom: 4px solid var(--sunglow);
 }
 
 footer {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  border-top: 4px solid var(--sunglow);
+margin-top: 2rem;
+   padding-left: 26rem;
+   color: var(--white);
 }
 .card1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   background-color: var(--white);
-  border-top: 4px solid var(--sunglow);
-  margin-top: 1rem;
 }
 .parent {
   padding-top: 10rem;
@@ -116,6 +114,15 @@ footer {
   grid-template-columns: 1fr;
   gap: 1rem;
   background-color: var(--light-blue);
+   border-bottom: 4px solid var(--sunglow);
+}
+
+.latte-card {
+  margin-left: 2rem;
+}
+
+.iced-card {
+  margin-right: 2rem;
 }
 
 @media (min-width: 650px) {
@@ -150,12 +157,11 @@ h1 {
   font-weight: 300;
   text-transform: uppercase;
   margin: 0;
-  color: var(--black);
+  color: var(--white);
 }
 
 nav {
   padding-bottom: 2rem;
-  border-bottom: 4px solid var(--sunglow);
 }
 
 .button2 {
