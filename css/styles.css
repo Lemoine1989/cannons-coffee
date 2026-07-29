@@ -171,3 +171,7 @@ nav {
   text-decoration: none;
 }
 
+main {
+  border-bottom: 5px solid var(--sunglow);
+}
+
