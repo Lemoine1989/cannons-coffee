@@ -39,6 +39,7 @@ img {
   align-items: center;
   padding: 0;
   margin: 0;
+  border-radius: 6px;
 }
 
 h2 {
@@ -106,9 +107,6 @@ header {
 footer {
   margin-top: 0;
   padding: 0;
-  /* display: flex;
-  flex-flow: row wrap;
-  justify-content: center; */
   text-align: center;
   color: var(--white);
 }
@@ -129,26 +127,26 @@ footer {
   background-color: var(--light-blue);
   margin: 0;
   padding: 0;
-  border-bottom: 4px solid var(--sunglow);
+  border-bottom: 2px solid var(--sunglow);
 }
 
 .latte-card {
-  margin: 0;
+  margin: 2rem;
   padding: 0;
 }
 
 .iced-card {
-  margin-bottom: 0;
+  margin: 2rem;
   padding: 0;
 }
 
 .chocolate-card {
-  margin: 0;
+  margin: 2rem;
   padding: 0;
 }
 
 .coffee-card {
-  margin: 0;
+  margin: 2rem;
   padding: 0;
 }
 
@@ -165,7 +163,7 @@ nav {
 }
 
 @media (min-width: 1000px) {
-  nav ul {
+  header {
     justify-content: space-between;
   }
   .all-cards {
@@ -179,9 +177,9 @@ nav {
 /* Latte Page */
 
 main {
-  background-color: var(--white);
+background-color: var(--white);
 padding: 0;
-  margin: 0;
+margin: 0;
 }
 
 h1 {
@@ -204,6 +202,6 @@ nav {
   text-decoration: none;
 }
 
-/* main {
-  border-bottom: 5px solid var(--sunglow);
-} */
+main {
+  border-bottom: 3px solid var(--sunglow);
+}
