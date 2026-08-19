@@ -57,13 +57,39 @@
         </nav>
       </header>
         <main>
+          <form>
+           <label for="name">Name</label><br>
+<input type="text" id="name" name="name" required>
+<br>
+<label for="email">Email</label><br>
+<input type="email" id="email" name="email" required>
+<br>
+<label for="number">Phone</label>
+<input type="tel" id="number" name="phoneNumber" placeholder="12345678" required>
+<br>
+<label for="comments">Comments?</label><br>
+<textarea id="comments" name="comments" rows="3" cols="30"></textarea>
+<br>
+<label for="coffee-flavor">Coffee flavor:</label><br>
+	<select id="coffee-flavor" name="coffe-flavor">
+		<option value="">Select Coffee flavor</option>
+		<option value="vanilla">Vanilla</option>
+		<option value="caramel">Caramel</option>
+		<option value="hazelnut">Hazelnut</option>
+	</select><br>
+  <fieldset>
+		<legend>Coffee or Employment?</legend>
+		<label><input type="radio" name="tech" value="Coffee"> Coffee</label><br>
+		<label><input type="radio" name="tech" value="Employment"> Employment</label><br>
+	</fieldset><br>
+  	<button type="submit">Submit</button>
+    </form>
         
             </main>
         <footer>
                 <img src="images/logo-footer.png" alt="Cannons Coffee, Beans of Joy! Est. 2014"/>
           <p>[copyright symbol] 2026 Cannons Coffee. All Rights Reserved</p>
         </footer>
-    </div>
 </body>
 
 </html>
