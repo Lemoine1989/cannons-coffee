@@ -14,3 +14,7 @@ function onFormSubmit(event) {
 }
 
 form.addEventListener("submit", onFormSubmit);
+
+let name = annieCannons;
+let coffee = 
+let story = `Thank you ${name}! We appreciate your interest in ${coffee-employment}. Your favorite coffee flavor is ${flavor} and your comments are $ {comments}. We will soon contact you at ${email} or ${phone}."
