@@ -84,6 +84,8 @@ nav ul {
   justify-content: center;
   list-style-type: none;
   gap: 2rem;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -95,13 +97,15 @@ a {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  align-items: baseline;
   gap: 1rem;
 }
 header {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
-  border-bottom: 4px solid var(--sunglow);
+  justify-content: center;
+  margin-bottom: 3rem;
+  align-items: baseline;
 }
 
 footer {
@@ -150,10 +154,19 @@ footer {
   padding: 0;
 }
 
-nav {
+/* nav {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-between;
+} */
+
+.our-coffee {
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+main {
+  border-top: 4px solid var(--sunglow);
 }
 
 @media (min-width: 650px) {
@@ -169,19 +182,16 @@ nav {
   .all-cards {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-  nav {
-    justify-content: space-between;
-  }
 }
 
 /* Latte Page */
 
 main {
-padding: 0;
-margin: 4rem;
-background-color: var(--light-blue);
-border-bottom: 3px solid var(--sunglow);
-text-align: left;
+  padding: 0;
+  /* margin: 4rem; */
+  background-color: var(--white);
+  border-bottom: 4px solid var(--sunglow);
+  text-align: left;
 }
 
 h2 {
@@ -195,10 +205,6 @@ h1 {
   margin: 0;
   color: var(--white);
 }
-
-nav {
-  padding-bottom: 2rem;
-} 
 
 .button2 {
   background-color: var(--vegan);

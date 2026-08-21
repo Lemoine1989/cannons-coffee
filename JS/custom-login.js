@@ -1,6 +1,6 @@
 const form = document.querySelector("form");
 
-let ordersList = [];
+
 
 function onFormSubmit(event) {
 	event.preventDefault();
@@ -9,8 +9,7 @@ function onFormSubmit(event) {
 	console.log(dataObject);
 	form.reset();
 
-	ordersList.push(dataObject);
-	console.log(ordersList);
+	`Welcome, ${name}! You are logged in!`
 }
 
 form.addEventListener("submit", onFormSubmit);
